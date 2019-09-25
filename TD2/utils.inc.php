@@ -5,3 +5,11 @@
             lang="fr"><head><title>' . PHP_EOL . $title . '</title></head><body>' . PHP_EOL;
         };
     start_page(Titre);
+
+
+function end_page()
+{
+    echo'</body></html>';
+
+}
+    end_page();
