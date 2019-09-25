@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire</title>
+</head>
+<body>
+<form action="data-processing.php" method="post">
+    <label for="Identifiant"> Identifiant</label><br>
+    <input type="text" name="Identifiant" id="Identifiant"><br>
+    <label for="Homme"> Homme </label><br>
+    <input type="radio" name="Civilité" id="Homme">
+    <label for="Femme"> Femme</label><br>
+    <input type="radio" name="Civilité" id="Femme"><br>
+    <label for="Mail"> Email</label><br>
+    <input type="text" name="Email" id="Mail"><br>
+    <label for="Mdp"> Mot de passe</label><br>
+    <input type="password" name="Mot de passe" id="Mdp"><br>
+    <label for="Vmdp"> Vérification du mot de passe</label><br>
+    <input type="password" name="vérification" id="Vmdp"><br>
+    <label for="Tel"> Téléphone</label><br>
+    <input type="text" name="Téléphone" id="Tel"><br>
+    <label for="Pays"> Pays</label><br>
+    <select name="Pays" id="Pays">
+        <option value="Non renseigné" selected>...</option>
+        <option value="France">France</option>
+        <option value="Europe">Europe</option>
+        <option value="Autre"> Autre </option>
+    </select>
+    <label for="cond"> Conditions d'utilisations:</label>
+    <input type="checkbox" name="Conditions d'utilisation" id="cond">
+    <label for="Submit">Envoyer par mail</label>
+    <input type="submit" id="Submit" name="Submit" value="Send">
+</form>
+</body>
+</html>
