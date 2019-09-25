@@ -1,10 +1,10 @@
 <?php
     include 'formulaire.html';
     if($_POST['Submit'] =='Send'){
-        $message='Voicivosidentifiants d\'inscription:'.PHP_EOL;
+        $message='Voici vos identifiants d\'inscription:'.PHP_EOL;
         $message.='Email:'.$_POST['mail'].PHP_EOL;
         $message.='Motdepasse:'.PHP_EOL.$_POST['Vérification'];
-        mail('chiquinha260@gmail.com');
+        mail($message,$message,$message);
         echo '<!DOCTYPE html> 
               <html lang="fr">
               <head>
